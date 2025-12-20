@@ -68,6 +68,9 @@ if (profileImage) {
     // If src is already set in HTML, use it; otherwise try fallbacks
     if (!profileImage.src || profileImage.src.endsWith(window.location.href) || profileImage.src.endsWith('/')) {
         const imageSources = [
+            'assets/images/profile.jpg',
+            'assets/images/profile.png',
+            'assets/images/image.jpg',
             'assets/images/image.png',
             'profile.jpg',
             'profile.jpeg',
